@@ -42,3 +42,31 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//stack(primitive)   heap (non-primitive)
+ //by value              //b ref
+
+
+//pass by value
+let myYoutubename="mahesh.com"
+anothername="dada"
+
+console.log("myYoutubename")
+console.log(anothername)
+
+
+//pass by ref
+let userOne={
+    email:"userEmail@gmail.com",
+    upi:"userupi@ybl"
+
+}
+
+let userTwo=userOne
+
+userTwo.email="mahesh@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
