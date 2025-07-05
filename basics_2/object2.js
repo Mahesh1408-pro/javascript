@@ -54,7 +54,7 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-
+//destructuring of an object
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -68,6 +68,8 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+//example of an api----API:it is an object wihout any name plus it holds string as key and value
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
