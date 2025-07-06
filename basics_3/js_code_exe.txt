@@ -1,0 +1,14 @@
+javascript execution context
+
+code files--->global execution context(this)-->browser ka window object aati hai
+
+function execution context--->
+eval execution context --->
+
+
+memory creation phase -->allocation phase hota hai ye wala
+execution phase
+
+
+new variale environment + execution thread(?)--->whole box call hota hai naye if we call a new function
+nev contains---[ new nev+thread ]
